@@ -10,7 +10,7 @@
     <meta name="Gino Joseph" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Welcome to CJ's Luxury and Executive Fleet</title>
+    <title>CJ's Luxury and Executive Fleet</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -18,8 +18,11 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles -->
     <link href="css/custom.css" rel="stylesheet">
+    <!-- font-awesome styles -->
+    <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -56,11 +59,11 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Email</a></li>
-                <li><a href="#">Phone</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Instagram</a></li>
+                <li><a href="#"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i>Email</a></li>
+                <li><a href="#"><i class="fa fa-phone-square fa-fw" aria-hidden="true"></i>Phone</a></li>
+                <li><a href="#"><i class="fa fa-facebook-official fa-fw" aria-hidden="true"></i>Facebook</a></li>
+                <li><a href="#"><i class="fa fa-twitter-square fa-fw" aria-hidden="true"></i>Twitter</a></li>
+                <li><a href="#"><i class="fa fa-instagram fa-fw" aria-hidden="true"></i>Instagram</a></li>
                 
                 <!-- Dropdown additional seperator and menu items excluded - TBD
                 <li role="separator" class="divider"></li>
@@ -161,7 +164,7 @@
 
 
     <div class="container">
-      <!-- Main component for a primary marketing message or call to action -->
+      <!-- SERVICES Component and description and to make bookings per vehicle colour -->
       <div id="services" class="jumbotron">
         
         <h1>SERVICES</h1>
@@ -170,7 +173,29 @@
             <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
             <p>To see the difference between static and fixed top navbars, just scroll.</p>
             <p>
-              <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
+              <!-- Red Button trigger modal -->
+              <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">
+                Enquire for RED
+              </button>
+
+              <!-- Red Booking Modal -->
+              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-danger">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </p>
           </div>
 
@@ -178,7 +203,29 @@
             <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
             <p>To see the difference between static and fixed top navbars, just scroll.</p>
             <p>
-              <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
+              <!-- Silver Button trigger modal -->
+              <button type="button" class="btn btn-silverBooking btn-lg" data-toggle="modal" data-target="#myModal">
+                Enquire for Silver
+              </button>
+
+              <!-- Silver Booking Modal -->
+              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-silverBooking">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </p>
           </div>
 
@@ -186,7 +233,29 @@
             <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
             <p>To see the difference between static and fixed top navbars, just scroll.</p>
             <p>
-              <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
+              <!-- White Button trigger modal -->
+              <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">
+                Enquire for Silver
+              </button>
+
+              <!-- White Booking Modal -->
+              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-default">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </p>
           </div>
         </div>
@@ -198,7 +267,7 @@
 
 
     <div class="container">
-      <!-- Main component for a primary marketing message or call to action -->
+      <!-- Contact Us component description of contact details and methods-->
       <div id="contact" class="jumbotron">
         <h1>CONTACT US</h1>
         <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>

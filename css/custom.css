@@ -33,3 +33,58 @@ body {
   min-width: 100%;
   height: 500px;
 }
+
+
+.jumbotron {
+  text-align: center;
+}
+
+
+/* SILVER button generated from http://blog.koalite.com/bbg/ */
+.btn-silverBooking { 
+  color: #FFFFFF; 
+  background-color: #D4D4D4; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-silverBooking:hover, 
+.btn-silverBooking:focus, 
+.btn-silverBooking:active, 
+.btn-silverBooking.active, 
+.open .dropdown-toggle.btn-silverBooking { 
+  color: #FFFFFF; 
+  background-color: #7A7A7A; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-silverBooking:active, 
+.btn-silverBooking.active, 
+.open .dropdown-toggle.btn-silverBooking { 
+  background-image: none; 
+} 
+ 
+.btn-silverBooking.disabled, 
+.btn-silverBooking[disabled], 
+fieldset[disabled] .btn-silverBooking, 
+.btn-silverBooking.disabled:hover, 
+.btn-silverBooking[disabled]:hover, 
+fieldset[disabled] .btn-silverBooking:hover, 
+.btn-silverBooking.disabled:focus, 
+.btn-silverBooking[disabled]:focus, 
+fieldset[disabled] .btn-silverBooking:focus, 
+.btn-silverBooking.disabled:active, 
+.btn-silverBooking[disabled]:active, 
+fieldset[disabled] .btn-silverBooking:active, 
+.btn-silverBooking.disabled.active, 
+.btn-silverBooking[disabled].active, 
+fieldset[disabled] .btn-silverBooking.active { 
+  background-color: #D4D4D4; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-silverBooking .badge { 
+  color: #D4D4D4; 
+  background-color: #FFFFFF; 
+}
+
+/* SILVER button generated from http://blog.koalite.com/bbg/ */
