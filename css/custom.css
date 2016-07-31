@@ -88,3 +88,15 @@ fieldset[disabled] .btn-silverBooking.active {
 }
 
 /* SILVER button generated from http://blog.koalite.com/bbg/ */
+
+
+#services p{
+  text-align:left;
+  font-size: 15px;
+}
+
+
+#services .col-md-4 {
+  text-align: center;
+}
+
