@@ -1,9 +1,23 @@
 body {
   min-height: 1600px;
+  background-image: url(../images/body_blackishBackground.png)
 }
 
 .navbar-static-top {
   margin-bottom: 19px;
+  font-family: "Bitter", serif;
+}
+
+.welcome {
+  padding-bottom: 20px;
+}
+.welcome p{
+  color: white;
+  font-family: "Oswald", serif;
+}
+.welcome h1{
+  color: white;
+  font-family: "Oswald", serif;
 }
 
 
